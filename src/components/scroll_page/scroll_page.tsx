@@ -1,5 +1,5 @@
-import About from "../../pages/about"
-import '../../assets/styles/scrollpage.css';
+import About from "../../pages/about/about"
+import '../scroll_page/scrollpage.css';
 
 function ScrollPage(){
     return(

@@ -1,6 +1,6 @@
-import ScrollPage from "./scroll_page";
-import Sidebar from "./sidebar";
-import '../../assets/styles/layout.css';
+import ScrollPage from "../scroll_page/scroll_page";
+import Sidebar from "../sidebar/sidebar";
+import '../layout/layout.css';
 
 function Layout(){
     return(

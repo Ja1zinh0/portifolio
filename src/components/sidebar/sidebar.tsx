@@ -1,4 +1,4 @@
-import '../../assets/styles/sidebar.css';
+import '../sidebar/sidebar.css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaArrowRight } from 'react-icons/fa6';
