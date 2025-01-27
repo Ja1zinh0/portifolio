@@ -14,11 +14,11 @@ function Sidebar(){
         </div>
         <div className="navButtons">
             <div className="side-navButtons">
-                <a> <FaArrowRight className="arrow-icon" /> About</a>
-                <a><FaArrowRight className="arrow-icon" /> Experiences</a>
-                <a><FaArrowRight className="arrow-icon" /> Projects</a>
-                <a><FaArrowRight className="arrow-icon" /> Contact me</a>
-                <a><FaArrowRight className="arrow-icon" /> Resume</a>
+                <a href='#about'><FaArrowRight className="arrow-icon" /> About</a>
+                <a href='#experiences'><FaArrowRight className="arrow-icon" /> Experiences</a>
+                <a href='#projects'><FaArrowRight className="arrow-icon" /> Projects</a>
+                <a href='#contact'><FaArrowRight className="arrow-icon" /> Contact me</a>
+                <a href='#resume'><FaArrowRight className="arrow-icon" /> Resume</a>
             </div>
         </div>
         <div className="icon-buttons">
