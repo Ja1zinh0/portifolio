@@ -7,6 +7,7 @@ function Experience(){
         <ExpCard />
         <ExpCard />
     </div>
+    
     )
 }
 
