@@ -9,7 +9,7 @@ function About(){
     `;
 
     return(
-        <div className="about">
+        <div className="about" id='about'>
             <p>{loremText}</p>
             <p>{loremText}</p>
             <p>{loremText}</p>

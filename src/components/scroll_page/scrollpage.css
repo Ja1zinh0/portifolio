@@ -4,6 +4,13 @@
   background-color: #ecf0f1;
   color: #2c3e50;
   display: flex;
-  justify-content: center;
   overflow-y: auto;
+  scroll-behavior: smooth;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gap {
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
