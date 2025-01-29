@@ -52,6 +52,11 @@
   justify-content: space-between;
 }
 
+.icon-buttons a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .arrow-icon {
   font-size: 0.9em;
 }
@@ -61,5 +66,12 @@
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: inherit;
+  color: #7e96af;
+  opacity: 0.6;
+  transition: color 0.3s, opacity 0.3s;
+}
+
+.side-navButtons a.active {
+  color: white;
+  opacity: 1;
 }

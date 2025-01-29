@@ -1,5 +1,5 @@
 .about {
-  width: 90%;
+  width: fit-content;
   text-align: justify;
   font-size: 1.3vw;
 }
