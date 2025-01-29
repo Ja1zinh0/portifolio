@@ -8,7 +8,7 @@ interface SectionRefs {
     experiences: RefObject<HTMLDivElement>;
   }
   
-  interface ScrollPageProps {
+  export interface ScrollPageProps {
     sectionRefs: SectionRefs;
   }
 

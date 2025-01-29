@@ -3,10 +3,12 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaArrowRight } from 'react-icons/fa6';
 import { SiGmail } from "react-icons/si";
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
+import { ScrollPageProps } from '../scroll_page/scroll_page';
 
 
-function Sidebar({ sectionRefs }) {
+
+function Sidebar({ sectionRefs }: ScrollPageProps) {
     const [activeSection, setActiveSection] = useState("about");
   
     useEffect(() => {
