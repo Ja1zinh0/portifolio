@@ -15,7 +15,7 @@ function Sidebar({ sectionRefs }: ScrollPageProps) {
       const observerOptions = {
         root: null,
         rootMargin: '0px',
-        threshold: 0.6 // Ajuste conforme necessário
+        threshold: 0.6
       };
   
       const observer = new IntersectionObserver((entries) => {
@@ -26,7 +26,6 @@ function Sidebar({ sectionRefs }: ScrollPageProps) {
         });
       }, observerOptions);
   
-      // Observa todas as seções
       Object.values(sectionRefs).forEach(ref => {
         if (ref.current) observer.observe(ref.current);
       });

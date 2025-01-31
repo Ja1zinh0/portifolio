@@ -1,0 +1,76 @@
+.project-rectangle {
+  width: 40vw;
+  height: 15vw;
+  background: #2c3e50;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.fake-image {
+  width: 7vw;
+  height: 7vw;
+  background: white;
+}
+
+.card-inside-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.image-side {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-side {
+  width: 70%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-bottom-skills {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 14%;
+}
+
+.skill-rectangle {
+  width: 5vw;
+  height: 1.5vw;
+  background-color: #4a6177;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-rectangle p {
+  margin: 0;
+  font-size: 0.9vw;
+}
+
+.project-title {
+  margin: 0;
+  padding-top: 8px;
+  font-size: 1.2vw;
+}
+
+.project-description {
+  width: 90%;
+  margin: 0;
+  padding-top: 15px;
+  font-size: 0.9vw;
+  text-justify: distribute-all-lines;
+}
