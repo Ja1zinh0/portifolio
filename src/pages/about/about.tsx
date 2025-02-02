@@ -10,10 +10,13 @@ function About(){
 
     return(
         <div className="about">
+            <div className='about-text'>
+                <div className='about-title'><p>About me</p></div>
             <p>{loremText}</p>
             <p>{loremText}</p>
             <p>{loremText}</p>
             <p>{loremText}</p>
+            </div>
         </div>
     )
 }
