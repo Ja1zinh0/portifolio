@@ -9,3 +9,9 @@
   margin: 0;
   margin-bottom: 10px;
 }
+
+.clickable-button {
+  all: unset;
+  cursor: pointer;
+  border: 0;
+}
